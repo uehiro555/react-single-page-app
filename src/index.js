@@ -1,12 +1,47 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Header from './header.js';
+import Body from './body.js';
+import Footer from './footer.js';
+import {Button} from 'react-bootstrap';
+import {Container,Row,Col} from 'react-bootstrap';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//classNameでcssを指定
+class Index extends React.Component{
+    render(){
+        return (
+            <div>
+                <Header/>
+                <div className="main">
+                    <Button>Danger</Button>
+                    <Container>
+                        <Row className="justify-content-md-center">
+                            <Col xs lg="2">
+                                1 of 3
+                            </Col>
+                            <Col md="auto">Variable width content</Col>
+                            <Col xs lg="2">
+                                3 of 3
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xs lg="2">1 of 3</Col>
+                            <Col xs lg="2">Variable width content</Col>
+                            <Col xs lg="6">
+                                3 of 3
+                            </Col>
+                        </Row>
+                    </Container>
+                    <Body/>
+                </div>
+                <Footer/>
+            </div>
+        );
+    }
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(
+    <Index />,
+    document.getElementById('root')
+);
