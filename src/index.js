@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './header.js';
-import Body from './body.js';
+import Body from './content.js';
 import Footer from './footer.js';
 import {Button} from 'react-bootstrap';
 import {Container,Row,Col} from 'react-bootstrap';

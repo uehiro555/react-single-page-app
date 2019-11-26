@@ -1,10 +1,10 @@
 import React from 'react';
+import './footer.css';
 
 //フッタの定義
 const Footer = () => {
     return <footer style={{textAlign: "center"}}>
-        <hr/>
-        <span>フッタです</span>
+        <div>フッタです</div>
     </footer>
 
 };
