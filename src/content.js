@@ -4,9 +4,9 @@ import Menu from './menu.js';
 import Pickup from './pickup.js';
 
 const Content = () => {
-    return <div className="content" style={{textAlign: "center"}}>
-        <Menu />
-        <Pickup />
+    return <div className="content">
+        <Menu/>
+        <Pickup/>
     </div>
 };
 
