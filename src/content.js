@@ -1,10 +1,13 @@
 import React from 'react';
 import './content.css';
+import Menu from './menu.js';
+import Pickup from './pickup.js';
 
-//ボディの定義
-const Body = () => {
-    return <div style={{textAlign: "center"}}>
+const Content = () => {
+    return <div className="content" style={{textAlign: "center"}}>
+        <Menu />
+        <Pickup />
     </div>
 };
 
-export default Body;
+export default Content;

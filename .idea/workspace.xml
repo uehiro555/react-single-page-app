@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="727682d9-459e-4f51-940f-7fc5dd7fa1ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pickup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pickup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +91,7 @@
       <workItem from="1574641519203" duration="2303000" />
       <workItem from="1574643950782" duration="639000" />
       <workItem from="1574646334072" duration="4824000" />
-      <workItem from="1574727085354" duration="3999000" />
+      <workItem from="1574727085354" duration="6295000" />
     </task>
     <servers />
   </component>
@@ -117,9 +115,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/index.js</url>
-          <line>24</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/footer.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
