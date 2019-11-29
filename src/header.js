@@ -6,7 +6,7 @@ import './header.css';
 //Headerの定義
 const Header = () => {
     return <header>
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="light" variant="light">
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
